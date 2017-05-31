@@ -1,7 +1,8 @@
 {
-  "name": "pendu",
-  "description": "Pendu game",
+  "name": "angular-starter",
+  "description": "AngularJS app starter",
   "version": "0.0.1",
+  "homepage": "https://github.com/popularowl/angular-starter",
   "license": "MIT",
   "dependencies": {
     "angular": "1.2.x",
