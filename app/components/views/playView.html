@@ -1,0 +1,21 @@
+<div class="center">
+	<div>Jeux du pendu</div>
+	
+	<p>
+		<img ng-src="resources/img/{{ hang }}" alt="pendu" />
+		Nombre d'essais restant: {{ 7-life }}
+	</p>
+
+	<h1>{{ displayed_word }}</h1>
+
+
+	<form>
+		<label for="char">Entrer une lettre:</label>
+		<input type="text" ng-model="char" id="char" />
+		<br>
+		<button ng-click="play()" >Go</button>
+	</form>
+
+
+
+</div>
